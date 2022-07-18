@@ -64,16 +64,40 @@
 		957F34E32885384700B547FC /* MiniApp - RxSwift - textField */ = {
 			isa = PBXGroup;
 			children = (
+				95C8E7AB288541F200B9CB1E /* ViewModel */,
+				95C8E7AA288541EE00B9CB1E /* View */,
+				95C8E7A9288541E900B9CB1E /* Model */,
 				957F34E42885384700B547FC /* AppDelegate.swift */,
-				957F34FF2885394E00B547FC /* ViewModel.swift */,
 				957F34E62885384700B547FC /* SceneDelegate.swift */,
-				957F34E82885384700B547FC /* ViewController.swift */,
 				957F34EA2885384700B547FC /* Main.storyboard */,
 				957F34ED2885384800B547FC /* Assets.xcassets */,
 				957F34EF2885384800B547FC /* LaunchScreen.storyboard */,
 				957F34F22885384800B547FC /* Info.plist */,
 			);
 			path = "MiniApp - RxSwift - textField";
+			sourceTree = "<group>";
+		};
+		95C8E7A9288541E900B9CB1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95C8E7AA288541EE00B9CB1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957F34E82885384700B547FC /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95C8E7AB288541F200B9CB1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				957F34FF2885394E00B547FC /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
